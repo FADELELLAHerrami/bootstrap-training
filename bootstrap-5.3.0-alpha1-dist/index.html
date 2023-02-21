@@ -10,14 +10,19 @@
 <body >
 
     
-    <!-- breadcrumb -->
+    <!-- collapse -->
     <nav>
-        <ul class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">home</a></li>
-            <li class="breadcrumb-item"><a href="#">about</a></li>
-            <li class="breadcrumb-item active"><a href="#">courses</a></li>
-        </ul>
+        <div data-bs-target="#za" class="btn btn-primary" data-bs-toggle="collapse">info</div>
+        <p id="za" class="collapse ">
+            Including only the Bootstrap bundle with popper -
+            as per @Kevin's comment above - fixed the issue for
+            me - And the previous conflicts don't seem to be an
+            issue anymore. All popovers, tooltips, modals, sidebars
+            etc. seem to now be working properly:
+        </p>
     </nav>
+    
+   
     
     
 
